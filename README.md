@@ -16,31 +16,29 @@ Pada project ini, strukturnya dibagi ke beberapa class, yaitu:
   * nik
   * nama
   * alamat
-  * jumlahTanggungan <br>
-  Penjelasan Class : Pada Class ini berguna untuk menyimpan informasi data diri warga.
+  * jumlahTanggungan
   
-
 * **KriteriaKemiskinan**
   * idKriteria
   * jenisPekerjaan
   * pendapatanBulanan
   * statusRumah
 
-* **`DataPusatWarga`** (Pusat pengolahan data dan penyimpanan sementara)
-  * `idData`
-  * `tanggalPendataan`
-  * `statusValidasi`
-  * `daftarWargaKurangMampu` (ArrayList buat nampung list objek warga)
+* **DataPusatWarga** (Pusat pengolahan data dan penyimpanan sementara)
+  * idData
+  * tanggalPendataan
+  * statusValidasi
+  * daftarWargaKurangMampu (ArrayList buat nampung list objek warga)
 
-* **`Main`** (Entry point / kelas utama yang ngejalanin menu interaktif di terminal)
+* **Main** (Entry point)
 
 ---
 
 ## 3. Penjelasan Alur Program
-Waktu program dijalanin, bakal muncul menu utama di terminal dengan 5 pilihan:
+Pada saat program dijalankan, nanti nya akan menampilkan menu utama di terminal dengan 5 pilihan:
 
-1. **Tambah Data Warga (Create):** Kita bisa masuki NIK, nama, alamat, sama jumlah tanggungan. Nanti datanya kesimpen otomatis ke sistem.
-2. **Tampilkan Data Warga (Read):** Dipakai buat ngecek dan nampilin semua daftar warga yang udah pernah di-input sebelumnya. Kalau datanya masih kosong, bakal ada pemberitahuan "Belum ada data warga".
+1. **Tambah Data Warga (Create):** Kita bisa memasukkan NIK, nama, alamat, sama jumlah tanggungan. Nanti datanya akan tersimpan otomatis ke sistem.
+2. **Tampilkan Data Warga (Read):** Dipakai buat mengecek dan nampilin semua daftar warga yang udah pernah di-input sebelumnya. Kalau datanya masih kosong, bakal ada pemberitahuan "Belum ada data warga".
 3. **Ubah Data Warga (Update):** Kalau ada kesalahan input, kita bisa ngubah data berdasarkan nomor urut data yang mau diperbarui (misal ganti nama, alamat, atau jumlah tanggungan).
 4. **Hapus Data Warga (Delete):** Buat mbuang data warga dari list kalau emang udah nggak diperlukan lagi, cukup ketik nomor data yang mau dihapus.
 5. **Keluar:** Buat ngeberhentiin atau menutup program.
