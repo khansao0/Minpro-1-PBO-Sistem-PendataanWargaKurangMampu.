@@ -59,4 +59,5 @@ Pada saat program dijalankan, nanti nya akan menampilkan menu utama di terminal 
 
 ## 4. Tambahan
 Atribut data, kriteria, proses penyimpanan pakai ArrayList, sama tampilan menu dipisah ke class masing-masing supaya kodenya bersih dan gampang dibaca. 
+
 pada program ini saya menggunakan ArrayList hanya di class DataPusatWarga, karena itu pusatnya untuk mengubah, mengelola, dan tugasnya memang untuk menampung list warga dan dipegang sama satu class khusus pengelola data, jadi class entitasnya (Warga) tetap bersih dan fokus mengelola atribut individunya saja. 
