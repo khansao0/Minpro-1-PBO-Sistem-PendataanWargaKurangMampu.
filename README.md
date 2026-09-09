@@ -1,4 +1,4 @@
-# Minpro-1-PBO-Sistem-PendataanWargaKurangMampu <br>
+# Minpro-1-PBO-SistemPendataanWargaKurangMampu <br>
 
 # Judul : Sistem Pendataan Warga Kurang Mampu
 
