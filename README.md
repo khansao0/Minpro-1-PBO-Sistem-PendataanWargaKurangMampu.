@@ -34,7 +34,28 @@ Pada project ini, strukturnya dibagi ke beberapa class, yaitu:
 
 ---
 
-## 3. Penjelasan Alur Program
+## 3. Penjelasan tiap Class 
+
+* **Warga**
+  * Penjelasan class: Pada class ini saya pakai untuk menyimpan informasi data diri warga.
+  * Pada class ini saya menggunakan atribut dengan access modifier private (encapsulation) yaitu String nik, String nama, String alamat, dan tipe data int jumlahTanggungan. 
+  * Saya juga menggunakan constructor, getter, setter, serta validasi di setJumlahTanggungan agar nilainya tidak bisa minus (kalau kurang dari 0 bakal otomatis ke 0 lagi ke set).
+
+* **KriteriaKemiskinan**
+  * Penjelasan class: Pada class ini saya gunakan untuk menampung atau syarat status ekonomi dan kelayakan warga.
+  * Atribut yang dipakai meliputi idKriteria, jenisPekerjaan, pendapatanBulanan, dan statusRumah.
+
+* **DataPusatWarga**
+  * Penjelasan Class: dan disini pusat pengolahan data dan penyimpanan sementara.
+  * Memiliki atribut idData, tanggalPendataan, statusValidasi, serta daftarWargaKurangMampu yang menggunakan ArrayList untuk menampung data-data warga secara dinamis. Kenapa cuma di class ini yang pakai ArrayList? Karena class ini yang bertugas sebagai pengelola/pusat data yang menampung banyak objek warga sekaligus, sedangkan class Warga atau KriteriaKemiskinan fokus membentuk satu struktur data individunya saja.
+  * disini penggunaaan (Create, Read, Update, Delete).
+
+* **Main**
+  * Penjelasan Class: disini entry point nya sebagai tempat program.
+  * disini saya memasukkan perulangan menu dan Scanner untuk membaca input pilihan.
+
+
+## 4. Penjelasan Alur Program
 Pada saat program dijalankan, nanti nya akan menampilkan menu utama di terminal dengan 5 pilihan: 
  <img width="1000"  alt="WhatsApp Image 2026-09-08 at 8 42 51 PM" src="https://github.com/user-attachments/assets/8332fc27-1ef3-418d-906e-c0ac76bf7eaf" />
 
@@ -57,7 +78,7 @@ Pada saat program dijalankan, nanti nya akan menampilkan menu utama di terminal 
 
 ---
 
-## 4. Tambahan
+## 5. Tambahan
 Atribut data, kriteria, proses penyimpanan pakai ArrayList, sama tampilan menu dipisah ke class masing-masing supaya kodenya bersih dan gampang dibaca. 
 
 pada program ini saya menggunakan ArrayList hanya di class DataPusatWarga, karena itu pusatnya untuk mengubah, mengelola, dan tugasnya memang untuk menampung list warga dan dipegang sama satu class khusus pengelola data, jadi class entitasnya (Warga) tetap bersih dan fokus mengelola atribut individunya saja. 
