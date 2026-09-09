@@ -5,7 +5,7 @@
 ---
 
 ## 1. Deskripsi Singkat Program
-Pada program ini saya membuat sistem sederhana berbasis teks di terminal untuk membantu proses pendataan warga yang berhak nerima bantuan sosial. Di dalam program ini juga bisa menambah data warga, menampilkan daftar warga yang udah di-input, mengubah data kalau ada yang salah, dan menghapus data dari daftar.
+Pada program ini saya membuat sistem sederhana berbasis teks di terminal untuk membantu proses pendataan warga yang berhak nerima bantuan sosial. Di dalam program ini juga bisa menambah data warga, menampilkan daftar warga yang udah di-input, mengubah data kalau ada yang salah, dan menghapus data dari daftar. dan Program ini lebih berfokus pada pendataan warga kurang mampu dan penyaluran bantuan sosial dari pemerintah.
 
 ---
 
@@ -24,11 +24,11 @@ Pada project ini, strukturnya dibagi ke beberapa class, yaitu:
   * pendapatanBulanan
   * statusRumah
 
-* **DataPusatWarga** (Pusat pengolahan data dan penyimpanan sementara)
+* **DataPusatWarga**
   * idData
   * tanggalPendataan
   * statusValidasi
-  * daftarWargaKurangMampu (ArrayList buat nampung list objek warga)
+  * daftarWargaKurangMampu (ArrayList)
 
 * **Main** (Entry point)
 
