@@ -5,7 +5,7 @@
 ---
 
 ## 1. Deskripsi Singkat Program
-Pada program ini saya membuat sistem sederhana berbasis teks di terminal untuk membantu proses pendataan warga yang berhak nerima bantuan sosial. Di dalam program ini juga bisa menambah data warga, menampilkan daftar warga yang udah di-input, mengubah data kalau ada yang salah, dan menghapus data dari daftar. dan Program ini lebih berfokus pada pendataan warga kurang mampu dan penyaluran bantuan sosial dari pemerintah.
+Pada program ini saya membuat sistem sederhana berbasis teks di terminal untuk membantu proses pendataan warga yang berhak nerima bantuan sosial. Di dalam program ini juga bisa menambah data warga, menampilkan daftar warga yang udah di input, mengubah data kalau ada yang salah, dan menghapus data dari daftar. dan program ini lebih berfokus pada pendataan warga kurang mampu dan penyaluran bantuan sosial dari pemerintah.
 
 ---
 
